@@ -1,0 +1,63 @@
+meta {display: none;}
+
+title {display: none}
+
+link {display: none;}
+
+head {display: none;}
+
+.banner {
+
+	background-image: url(img/b2.jpg);
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+	color: #ffaca6
+ }
+
+.banner h1{
+	color: white; 
+	font-size: 2.5em;
+	margin: 0;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.banner p {
+	color: white; 
+	font-size: 1.5em;
+	margin: 0;
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: 100; 
+}
+
+h2 {
+	text-align: center;
+	margin: 55px;
+	text-decoration: none;
+}
+
+.cards {
+    grid-template-columns: 1fr;}
+
+.first-card, .second-card, .third-card {
+	background: #fff9a6;
+    text-align: center;
+    box-shadow: 0 0 20px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 150px;
+    flex-grow: 1;
+    }
+	
+
+
+body {
+	font-family: "Constantia", serif;
+	color: black;
+	background-color: #fff9a6;
+	line-height: 1.2;
+	margin: 0;
+	text-decoration: none;
+}
